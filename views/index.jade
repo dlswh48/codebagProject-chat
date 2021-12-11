@@ -65,7 +65,7 @@ html
 
   body
     div.container
-      p 💌 SOCKET CHAT 💌
+      p CODEBAG CHAT
       ul#messages
       div.inputContainer
         form
@@ -78,7 +78,7 @@ script(src="/socket.io/socket.io.js")
 script(src="http://code.jquery.com/jquery-1.11.1.js")
 script.
   $(() => {
-    const name = prompt('이름을 입력해주세요');
+    const name = prompt('닉네임을 입력해주세요');
     const socket = io();
   
     $('form').submit(() => {
